@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Javascript Phoenix</title>
+		<!-- File inclusion: <script type="text/javascript" src="./Phoenix.js"></script> -->
+		<script type="text/javascript">
+var e=!0,f=!1,g=96,h=64,k=1/30,l=1,m=2,n=300,p=1,r,s,t,u,v=null,w,x={i:24,h:52,g:66},y=[{i:239,h:255,g:222},{i:173,h:215,g:148},{i:82,h:146,g:115},x],z=0,A=5,B=0,C=0,D=[],E={f:6,j:6,k:[[3,0,0,0,0,3],[3,0,0,0,0,3],[3,3,3,3,3,3],[3,3,3,3,3,3],[0,3,3,3,3,0],[0,0,3,3,0,0]]},F={f:8,j:5,k:[[3,0,0,0,0,0,0,3],[3,3,0,3,3,0,3,3],[3,3,3,3,3,3,3,3],[3,3,0,3,3,0,3,3],[3,0,0,0,0,0,0,3]]},G={f:16,j:12,k:[[3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3],[3,3,0,0,0,0,0,0,0,0,0,0,0,0,3,3],[3,3,3,0,0,0,0,0,0,0,0,0,0,3,3,3],[3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3],[3,3,0,0,3,3,3,3,3,3,3,3,0,0,3,3],[3,3,0,0,0,3,3,3,3,3,3,0,0,0,3,3],[3,3,0,0,0,0,3,3,3,3,0,0,0,0,3,3],[3,3,3,0,0,0,3,3,3,3,0,0,0,3,3,3],[3,3,3,3,0,0,3,3,3,3,0,0,3,3,3,3],[0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,0],[0,0,3,3,3,3,3,3,3,3,3,3,3,3,0,0],[0,0,0,3,3,3,3,3,3,3,3,3,3,0,0,0]]},H={f:16,j:12,k:[[3,0,1,1,0,0,1,1,1,1,0,0,1,1,0,3],[3,3,2,2,0,0,2,2,2,2,0,0,2,2,3,3],[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],[3,3,0,0,3,3,3,3,3,3,3,3,0,0,3,3],[3,3,0,0,0,3,3,
+3,3,3,3,0,0,0,3,3],[3,3,0,0,0,0,3,3,3,3,0,0,0,0,3,3],[3,3,3,0,0,0,0,3,3,0,0,0,0,3,3,3],[3,3,3,0,0,0,0,3,3,0,0,0,0,3,3,3],[0,3,3,0,0,0,3,3,3,3,0,0,0,3,3,0],[0,0,0,0,0,0,3,3,3,3,0,0,0,0,0,0],[0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0]]},I=8,J=6,K=[[3,0,0,0,0,0,0,3],[3,0,0,0,0,0,0,3],[3,0,0,3,3,0,0,3],[3,0,3,0,0,3,0,3],[3,3,0,0,0,0,3,3],[3,0,0,0,0,0,0,3]],L=null,M=0,N=[[{a:E,d:10,e:14,c:2,b:0},{a:E,d:20,e:14,c:2,b:0},{a:E,d:30,e:14,c:2,b:0},{a:E,d:40,e:14,c:2,b:0},{a:E,d:50,e:14,c:2,b:0},{a:E,d:60,e:14,c:2,b:0},
+{a:E,d:70,e:14,c:2,b:0},{a:E,d:10,e:24,c:2,b:0},{a:E,d:20,e:24,c:2,b:0},{a:E,d:30,e:24,c:2,b:0},{a:E,d:40,e:24,c:2,b:0},{a:E,d:50,e:24,c:2,b:0},{a:E,d:60,e:24,c:2,b:0},{a:E,d:70,e:24,c:2,b:0}],[{a:F,d:10,e:14,c:4,b:0},{a:F,d:25,e:14,c:4,b:0},{a:F,d:40,e:14,c:4,b:0},{a:F,d:55,e:14,c:4,b:0},{a:F,d:70,e:14,c:4,b:0},{a:F,d:5,e:24,c:4,b:0},{a:F,d:20,e:24,c:4,b:0},{a:F,d:35,e:24,c:4,b:0},{a:F,d:50,e:24,c:4,b:0},{a:F,d:65,e:24,c:4,b:0},{a:F,d:80,e:24,c:4,b:0}],[{a:G,d:10,e:35,c:100,b:0},{a:G,d:g-G.f-10,
+e:35,c:100,b:0},{a:H,d:g/2-H.f,e:5,c:200,b:1}]],O=f,P=f,Q=f,R=f,S=f,T=null,U=g/2-I/2,V=h-10;function W(b,a,c){u.save();u.fillStyle=void 0!=c?"rgb("+c.i+","+c.h+","+c.g+")":"rgb(0, 0, 0)";u.fillRect(b,a,1,1);u.restore()}function X(b,a,c,i,q){for(var d=0;d<q;d++)for(var j=0;j<i;j++)W(Math.floor(j+b),Math.floor(d+a),y[c[d][j]])}
+function Y(){clearInterval(v);var b=new Date,a=b.getTime(),b=Math.abs(a-w)/1E3;w=a;if(0!=z)if(1==z){0>=L.length&&(M++,M>=N.length?z=4:(z=2,Z()));P&&(U+=l);O&&(U-=l);Q&&(V-=l);R&&(V+=l);a=new Date;if(S&&(null==T||Math.abs(T.getTime()-a.getTime())>n))C++,D.push({m:e,x:U+I/2-C%2,y:V+J/2}),T=a;U<-I/2&&(U=-I/2);U>g-I/2&&(U=g-I/2);V<h/2&&(V=h/2);V>h-J&&(V=h-J);for(a=D.length-1;0<=a;a--){var c=D[a],i=f;!(0>c.x||0>c.y||c.x>=g||c.y>=h)||(i=e);if(c.m==e)for(var q=L.length-1;0<=q;q--){var d=L[q];if(!i&&!(0>
+c.x-d.x||0>c.y-d.y||c.x-d.x>=d.a.f||c.y-d.y>=d.a.j))d.c--,i=e,0>=d.c&&L.splice(q,1)}else if(!i&&!(0>c.x-U||0>c.y-V||c.x-U>=I||c.y-V>=J))i=e,A-=1,0>=A&&(z=3);i?D.splice(a,1):c.m==f?c.y+=p:c.m==e&&(c.y-=m)}for(a=0;a<L.length;a++){d=L[a];d.b+=b;d.l+=b;var c=d.d,i=d.e,q=Math.floor(d.b)%4,j=d.b-Math.floor(d.b);0==q?d.x=c*(1-j)+(c+10)*j:1==q?d.y=i*(1-j)+(i-10)*j:2==q?d.x=(c+10)*(1-j)+c*j:3==q&&(d.y=(i-10)*(1-j)+i*j);2.5<d.l&&(D.push({m:f,x:d.x+d.a.f/2,y:d.y+d.a.j/2}),d.l-=2.5)}}else if(2!=z&&(3==z||4==
+z))B+=b;a=y[0];u.fillStyle="rgb("+a.i+","+a.h+","+a.g+")";u.fillRect(0,0,g,h);if(0==z)a=y[3],u.fillStyle="rgb("+a.i+","+a.h+","+a.g+")",u.fillText("-= Phoenix =-",16,25),u.fillText("[Press Space]",16,35),X(g/2-G.f/2,h/2+10,G.k,G.f,G.j);else if(1==z){X(U,V,K,I,J);for(b=0;b<L.length;b++)a=L[b],X(a.x,a.y,a.a.k,a.a.f,a.a.j);for(b=0;b<D.length;b++)W(Math.floor(D[b].x),Math.floor(D[b].y),x);a=Math.floor(A/5*h);for(b=0;b<a;b++)W(g-1,h-b-1,x)}else if(2==z)a=y[3],u.fillStyle="rgb("+a.i+","+a.h+","+a.g+")",
+u.fillText("Store: Tap # to buy",2,15),u.fillText("1. Fast Ship",2,25),u.fillText("2. Fast Reload",2,35),u.fillText("3. Fast Bullet",2,45),u.fillText("Space-Bar: Cancel",2,55);else if(3==z||4==z){d="-= GAME OVER =-";4==z&&(d="-= !YOU WON! =-");for(b=0;b<d.length;b++)a=y[Math.floor(3*((Math.sin(10*B+0.4*b)+1)/2))+1],u.fillStyle="rgb("+a.i+","+a.h+","+a.g+")",u.fillText(d[b],10+5*b,34+8*Math.sin(2*B+0.05*b))}t++;b=new Date;1E3<Math.abs(b.getTime()-s.getTime())&&(r.innerHTML=t,t=0,s=b);v=setInterval(Y,
+1E3*k)}function Z(){var b=N[M];L=[];for(var a=0;a<b.length;a++){var c=b[a];L[a]={a:c.a,x:c.d,y:c.e,d:c.d,e:c.e,c:c.c,b:c.b,l:0}}}
+window.main=function(){r=document.getElementById("FPSLabel");var b=document.getElementById("MainCanvas");b.width=g;b.height=h;u=b.getContext("2d");document.onkeydown=function(a){if(0==z&&32==a.keyCode)z=1;else if(1==z){if(37==a.keyCode&&(O=e),39==a.keyCode&&(P=e),38==a.keyCode&&(Q=e),40==a.keyCode&&(R=e),90==a.keyCode||122==a.keyCode)S=e}else 2==z&&(49==a.keyCode&&(l++,z=1),50==a.keyCode&&(n-=100,z=1),51==a.keyCode&&(m++,z=1),32==a.keyCode&&(z=1))};document.onkeyup=function(a){if(1==z&&(37==a.keyCode&&
+(O=f),39==a.keyCode&&(P=f),38==a.keyCode&&(Q=f),40==a.keyCode&&(R=f),90==a.keyCode||122==a.keyCode))S=f,T=null};Z();s=new Date;t=0;w=(new Date).getTime();Y()};
+		</script>
+	</head>
+	<body onload="main()">
+		<div style="text-align:center">
+			<h1>Javascript Phoenix</h1>
+			<canvas id="MainCanvas" style="width:384px; height:256px;"></canvas>
+			<p>Start game with space-bar. Move with arrow keys, fire with Z. Refresh page on start a new game. Fps: <b id="FPSLabel">...</b></p>
+			<p>Requires HTML5/Canvas support.</p>
+		</div>
+	</body>
+</html>
