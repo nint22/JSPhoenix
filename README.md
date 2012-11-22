@@ -26,12 +26,12 @@ health-points which do not regenerate.
 
 Features I would love to see others develop and merge-back would be:
 
-# A currency system, rather than "buying one item at each store"
-# Cleaner fonts
-# A more "retro" look of the actual pixel display
-# Buy health through the store
-# Have weapons upgrade (different kinds of weapons, not just damage-point upgrades)
-# More levels & enemies
+- A currency system, rather than "buying one item at each store"
+- Cleaner fonts
+- A more "retro" look of the actual pixel display
+- Buy health through the store
+- Have weapons upgrade (different kinds of weapons, not just damage-point upgrades)
+- More levels & enemies
 
 The source-code design is pretty straight-forward: there is a looped function which controls
 frame / update rates, and executes an "Update" function (game logic), and a "Render" function (rendering).
